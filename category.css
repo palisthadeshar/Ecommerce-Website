@@ -1,0 +1,150 @@
+/* contains css for product details and today's deal page */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	box-sizing: border-box;
+}
+
+/*PRODUCT PAGE STYLING*/
+.page-section {
+	padding: 3rem;
+	background: #e4e4e4;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 1;
+}
+
+.form {
+	background-color: white;
+	padding: 50px;
+	height: 900px;
+
+}
+
+.sidebar-title {
+
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.input-group-text {
+	background-color: #70BD31;
+}
+
+.sidebar-list {
+	font-size: 18px;
+	font-weight: 900;
+
+}
+
+.sidebar-list a {
+	font-size: 1.5em;
+}
+
+.sidebar-list a:hover {
+	color: #70BD31;
+	text-decoration: none;
+}
+
+.sidebar-list {
+	color: black;
+}
+
+.sidebar-text {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+
+
+.tags {
+	font-size: 1em;
+	font-weight: 200;
+}
+
+.dealtags {
+	font-size: 1em;
+	font-weight: 200;
+	color: red;
+}
+
+
+
+.card-title {
+
+
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.card-text {
+
+	font-size: 13px;
+}
+
+.price-tag {
+
+
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.button-text {
+
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.card {
+	transition: transform .3s;
+}
+
+.card:hover {
+	transform: translateY(-15px);
+	transition: transform .3s;
+}
+
+.card a {
+	color: black;
+}
+
+.card a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+.btn:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+
+.btn {
+	font-size: 1rem;
+	padding: 0.5rem 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+}
+
+.card .btn-success {
+	color: #fff;
+	background-color: #70BD31;
+	border-color: #70BD31;
+}
+
+
+.product-image {
+	width: auto;
+	height: 200px;
+}
+
+.card-body {
+	border-radius: 20px;
+}
+
+.searchss {
+	display: flex;
+}

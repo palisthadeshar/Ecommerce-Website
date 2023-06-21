@@ -1,0 +1,198 @@
+/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"; */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+
+
+}
+
+
+
+nav .main-menu {
+    background-color: #1C223C;
+
+}
+
+nav .main-menu {
+    height: 70px;
+
+}
+
+nav .sub-menu {
+    height: 10px;
+
+}
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+
+.wrapper {
+    display: flex;
+
+    align-items: stretch;
+
+
+
+}
+
+#sidebar-trader {
+    background-color: white;
+
+
+}
+
+
+body {
+    background-color: #e3e4e6;
+}
+
+ul li {
+    padding: 15px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #70BD31;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+
+
+/* trader form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+
+
+}
+
+
+
+
+.form .input_field {
+    margin-bottom: 10px;
+}
+
+.form select {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+    /* margin: 0 25vh 0 25vh; */
+
+    border-radius: 10px;
+}
+
+
+.form .input_field input[type="text"],
+
+.form textarea {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 7px;
+    margin: auto;
+    border-radius: 10px;
+
+
+}
+
+.form textarea {
+    resize: none;
+    height: 80px;
+
+}
+
+.btn-success {
+    background-color: #70BD31;
+    border: #70BD31;
+}
+
+.form .btn input[type="button"] {
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 50%;
+
+    background: #1C223C;
+    color: white;
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.form .btn {
+    width: 100%;
+    padding: 5vh;
+}
+
+
+
+
+.product-image {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* meadia query for side bar */
+@media (min-width: 766px) {
+    nav .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 676px) {
+    #sidebarCollapse i {
+        display: none;
+    }
+
+}
+
+@media (min-width: 577px) {
+    #sidebarCollapse i {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #sidebar-trader {
+        display: none;
+    }
+
+    .form {
+        background-color: white;
+    }
+
+    .form .btn input[type="buton"] {
+        width: 100%;
+    }
+
+}

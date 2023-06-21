@@ -1,0 +1,19 @@
+.btn input[type="submit"]{
+    border: 0px;
+    padding: 10px;
+
+    background:#70BD31;
+    color: white;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .list-group-item
+  {
+      border: none;
+  }
+

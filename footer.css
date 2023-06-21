@@ -1,0 +1,113 @@
+.footer {
+    display: grid;
+    margin-top: 8vh;
+    height: 35vh;
+    justify-items: center;
+    background-color: #1C223C;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "part-1 part-2 part-3 part-4";
+
+
+}
+
+.footer h2 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #70BD31;
+}
+
+.footer .part-1 li {
+
+    padding: 6px;
+
+}
+
+.footer .part-2 li {
+
+    padding: 6px;
+
+
+}
+
+.part-3 {
+    margin-top: -3vh;
+}
+
+.footer .part-3 li {
+    display: inline;
+
+
+}
+
+.footer .part-3 li a {
+    padding: 1vh;
+
+
+}
+
+.footer i {
+    font-size: 25px;
+    margin-top: 3vh;
+}
+
+.footer .part-4 li {
+    color: white;
+    list-style-type: none;
+}
+
+.part-1,
+.part-2,
+.part-3,
+.part-4 {
+    margin-top: 3vh;
+}
+
+.copyright {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "copyrightt";
+    background-color: black;
+}
+
+.copyrightt {
+    background-color: black;
+    padding: 5px;
+
+}
+
+.copyrightt p {
+    color: white;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer {
+        display: grid;
+        height: unset;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "part-1 part-2 ""part-3 part-4";
+
+
+    }
+
+    .part-1,
+    .part-2,
+    .part-3,
+    .part-4 {
+        margin-top: 4vh;
+    }
+}
